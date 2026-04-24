@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Diario — Un blog de vida y momentos</title>
+  <meta name="description" content="Un blog de vida y momentos" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="masthead-top">
+      <span class="masthead-date" id="js-date">—</span>
+      <nav class="masthead-nav">
+        <a href="index.html">Inicio</a>
+        <a href="#">Fotografía</a>
+        <a href="#">Viajes</a>
+        <a href="#">Sobre mí</a>
+      </nav>
+      <span>Vol. I</span>
+    </div>
+
+    <div class="masthead-title">
+      <h1><a href="index.html">El Diario</a></h1>
+      <p class="tagline">Notas de una vida ordinaria</p>
+    </div>
+
+    <nav class="masthead-bottom">
+      <a href="#">Inicio</a>
+      <a href="#">Fotografía</a>
+      <a href="#">Viajes</a>
+      <a href="#">Reflexiones</a>
+      <a href="#">Recetas</a>
+      <a href="#">Sobre mí</a>
+    </nav>
+  </header>
+
+  <!-- HERO POST -->
+  <article class="hero">
+    <div class="hero-image">
+      <!-- Reemplazá con tu propia imagen: <img src="images/tu-foto.jpg" alt="..." /> -->
+      <img
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&auto=format&fit=crop"
+        alt="Montañas al amanecer"
+        loading="eager"
+      />
+    </div>
+    <div class="hero-content">
+      <span class="hero-category">Viajes</span>
+      <h2><a href="post.html">El silencio que encontré en la Patagonia</a></h2>
+      <p class="hero-excerpt">
+        Hubo un momento, entre las nubes y el viento, en que dejé de buscar
+        las palabras. La montaña habla sola si uno sabe callarse.
+      </p>
+      <div class="hero-meta">
+        <span class="author">María Fernández</span>
+        <span class="sep">·</span>
+        <span>14 de abril, 2025</span>
+        <span class="sep">·</span>
+        <span>6 min</span>
+      </div>
+      <a href="post.html" class="read-more">
+        Leer nota
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </article>
+
+  <!-- SECCIÓN: ÚLTIMAS NOTAS -->
+  <main class="section-container">
+    <div class="section-header">
+      <h3>Últimas notas</h3>
+    </div>
+
+    <div class="post-grid">
+
+      <article class="post-card">
+        <div class="post-card-image">
+          <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&auto=format&fit=crop"
+            alt="Café de mañana"
+            loading="lazy"
+          />
+        </div>
+        <div class="post-card-body">
+          <span class="post-card-category">Cotidiano</span>
+          <h2 class="post-card-title"><a href="post.html">El ritual de las seis de la mañana</a></h2>
+          <p class="post-card-excerpt">
+            Antes de que la casa despierte, hay un cuarto de hora que me pertenece
+            solo a mí.
+          </p>
+          <div class="post-card-meta">
+            <span class="date">8 abr, 2025</span>
+            <span>4 min</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card-image">
+          <img
+            src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=600&auto=format&fit=crop"
+            alt="Flores silvestres"
+            loading="lazy"
+          />
+        </div>
+        <div class="post-card-body">
+          <span class="post-card-category">Fotografía</span>
+          <h2 class="post-card-title"><a href="post.html">Aprender a ver lo pequeño</a></h2>
+          <p class="post-card-excerpt">
+            Una clase de fotografía me enseñó más sobre cómo miro la vida
+            que sobre cómo uso la cámara.
+          </p>
+          <div class="post-card-meta">
+            <span class="date">2 abr, 2025</span>
+            <span>5 min</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card-image">
+          <img
+            src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&auto=format&fit=crop"
+            alt="Ventana con lluvia"
+            loading="lazy"
+          />
+        </div>
+        <div class="post-card-body">
+          <span class="post-card-category">Reflexiones</span>
+          <h2 class="post-card-title"><a href="post.html">Días grises y libros viejos</a></h2>
+          <p class="post-card-excerpt">
+            No todos los domingos tienen que ser productivos. Algunos solo
+            piden que los dejes pasar.
+          </p>
+          <div class="post-card-meta">
+            <span class="date">27 mar, 2025</span>
+            <span>3 min</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- SEGUNDA FILA: 2 columnas -->
+    <div class="section-header">
+      <h3>También te puede gustar</h3>
+    </div>
+
+    <div class="post-grid-2">
+
+      <article class="post-card">
+        <div class="post-card-image">
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&auto=format&fit=crop"
+            alt="Mesa con comida"
+            loading="lazy"
+          />
+        </div>
+        <div class="post-card-body">
+          <span class="post-card-category">Recetas</span>
+          <h2 class="post-card-title"><a href="post.html">La guía que no se busca: el locro de mi abuela</a></h2>
+          <p class="post-card-excerpt">
+            Algunas recetas no se miden en tazas. Se miden en inviernos compartidos
+            y en el olor que se queda en la ropa.
+          </p>
+          <div class="post-card-meta">
+            <span class="date">21 mar, 2025</span>
+            <span>7 min</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card-image">
+          <img
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&auto=format&fit=crop"
+            alt="Retrato"
+            loading="lazy"
+          />
+        </div>
+        <div class="post-card-body">
+          <span class="post-card-category">Gente</span>
+          <h2 class="post-card-title"><a href="post.html">Conocí a un señor que lleva 40 años plantando árboles</a></h2>
+          <p class="post-card-excerpt">
+            Me dijo que ninguno de los árboles que plantó era para él.
+            Todo era para alguien que todavía no había nacido.
+          </p>
+          <div class="post-card-meta">
+            <span class="date">15 mar, 2025</span>
+            <span>5 min</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- PAGINACIÓN -->
+    <nav class="pagination" aria-label="Páginas">
+      <a href="#">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M9 3L5 7l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <span class="current">1</span>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M5 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </nav>
+
+  </main>
+
+  <!-- ABOUT STRIP -->
+  <section style="padding: 0 2rem 3.5rem; max-width: 1280px; margin: 0 auto;">
+    <div class="about-strip">
+      <div class="about-avatar">
+        <!-- Reemplazá con tu foto: <img src="images/avatar.jpg" alt="Tu nombre" /> -->
+        <img
+          src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=180&auto=format&fit=crop&crop=face"
+          alt="María Fernández"
+        />
+      </div>
+      <div class="about-text">
+        <h4>Hola, soy María</h4>
+        <p>
+          Escribo sobre las cosas pequeñas que hacen grande la vida cotidiana.
+          Fotógrafa aficionada, cocinera del domingo y lectora compulsiva.
+          <a href="#" style="color: var(--accent); text-decoration: underline; text-underline-offset: 3px;">Saber más →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-title">El Diario</div>
+    <p class="footer-tagline">Notas de una vida ordinaria</p>
+    <nav class="footer-links">
+      <a href="#">Inicio</a>
+      <a href="#">Fotografía</a>
+      <a href="#">Viajes</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <p class="footer-copy">© 2025 El Diario · Hecho con cariño y HTML plano</p>
+  </footer>
+
+  <script>
+    const d = new Date();
+    const opts = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById('js-date').textContent =
+      d.toLocaleDateString('es-AR', opts);
+  </script>
+</body>
+</html>
